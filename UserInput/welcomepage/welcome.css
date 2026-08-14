@@ -1,0 +1,16 @@
+body {
+  background-color: bisque;
+  height: 100vh;
+  margin: 0;
+  
+  /* Simple vertical stack layout */
+  display: flex;
+  flex-direction: column; 
+  align-items: center;     /* Centers everything horizontally */
+  justify-content: center; /* Centers everything vertically */
+  gap: 15px;               /* Adds clean spacing between your elements */
+}
+
+h1 {
+  margin: 0; /* Cleans up default text margins */
+}
