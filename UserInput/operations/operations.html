@@ -9,12 +9,12 @@
 <body>
     <h2>Enter two numbers</h2>
     <label>Number1:</label>
-    <input type="number" placeholder="eg..,24">
+    <input type="number" placeholder="eg..,24" id="Num1">
     <label>Number2:</label>
-    <input type="number" placeholder="eg..,24">
+    <input type="number" placeholder="eg..,24" id="Num2">
     
     
-    <form>
+  <form>
   <p>Choose the operations:</p>
   <input type="radio" id="addition" onclick="toggleRadio(this)" name="op">
   <label>Addition</label><br>
@@ -24,8 +24,12 @@
 
   <input type="radio" id="multiplication" onclick="toggleRadio(this)" name="op">
   <label>Multiplication</label>
+  </form>
 
-  <script src="operations.js"></script>
-</form>
+  <button id="Calci">calculate</button>
+
+  RESULT : <p id="parah"></p>
+
+<script src="operations.js"></script>
 </body>
 </html>
